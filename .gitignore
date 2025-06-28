@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+!vae_model_final.pth
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test files
+test_*.json
+test_*.py
+*_debug.py
+
+# Training outputs
+vae_training_loss.png
+vae_model_epoch_*.pth
+
+# Development files
+level_editor.py
+vae_train.py
+mustafa_super_bros_shruti.py
+
+# Documentation (optional - keep if you want)
+DEBUG_README.md
+IMPLEMENTATION_SUMMARY.md
+QUICK_START.md
+
+# Preview images
+Preview*.png
+Sample*.png 
